@@ -1,0 +1,13 @@
+﻿<Window x:Class="Tetris.ReadMe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tetris"
+        mc:Ignorable="d"
+        Title="ReadMe" Height="358.442" Width="352.597">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="327" TextWrapping="Wrap" Text="       WELCOME TO TETRIS&#xA;&#xA;Keyboard control:&#xA;  h -&gt; Play/Stop Sound&#xD;&#xA;  p -&gt; pause&#xA;  r - &gt; resume&#xA;  esc -&gt; exit&#xA;  Left arrow -&gt; move left&#xA;  Right arrow -&gt; move right&#xA;  Up arrow -&gt; rotate 90 deg clockwise&#xA;  Down arrow -&gt; rotate 90 d anti clockw&#xA;  + -&gt; level UP&#xA;  -  -&gt; level Down&#xA;  &#xA; &#xA;  " VerticalAlignment="Top" Width="345" FontSize="18"/>
+
+    </Grid>
+</Window>
